@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0; }
 
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
 .link__adalab:hover {
   background-color: #099d8d;
   color: #fff; }
@@ -103,6 +106,23 @@ header {
 
 .desplegable {
   height: 20px; }
+
+header a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none; }
+
+header nav ul {
+  display: none; }
+
+@media all and (min-width: 768px) {
+  .desplegable {
+    display: none; }
+  header nav ul {
+    list-style: none;
+    display: flex; }
+  header nav ul li {
+    padding: 20px; } }
 
 .footer {
   background-color: black;
