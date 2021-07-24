@@ -1,0 +1,130 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.link__adalab:hover {
+  background-color: #099d8d;
+  color: #fff; }
+
+.link__github:hover {
+  background-color: #CCC;
+  color: #000; }
+
+.container {
+  clear: both; }
+
+.section1 {
+  background-color: #1d75de;
+  color: #fff;
+  line-height: 1.2;
+  /*height: 50vh;*/
+  position: relative;
+  top: 50px;
+  padding: 40px;
+  margin-bottom: 60px; }
+
+.section1 > * {
+  max-width: 900px;
+  margin: auto; }
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  margin-bottom: 20px; }
+
+.button {
+  background-color: #4caf50;
+  width: 100%;
+  max-width: 400px;
+  border: none;
+  color: white;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.p-strong {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.small {
+  font-size: 15px; }
+
+.section2 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  max-width: 900px;
+  margin: auto; }
+
+.h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center; }
+
+.article {
+  clear: both;
+  margin-bottom: 50px;
+  padding-left: 50px; }
+
+.image {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  float: left; }
+
+.h3 {
+  font-size: 16px;
+  padding: 40px; }
+
+.p-article {
+  font-size: 14px;
+  padding-left: 40px; }
+
+header {
+  box-sizing: border-box;
+  background-color: black;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+  z-index: 1; }
+
+.logo {
+  height: 35px; }
+
+.desplegable {
+  height: 20px; }
+
+.footer {
+  background-color: black;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  clear: both;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.footer div {
+  text-align: right; }
+
+.España {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end; }
+
+.logo-españa {
+  margin-left: 10px; }
+
+/*# sourceMappingURL=main.css.map */

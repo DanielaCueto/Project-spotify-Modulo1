@@ -1,24 +1,5 @@
-header {
-  box-sizing: border-box;
-  background-color: black;
-  width: 100%;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
-  align-items: center;
-  z-index: 1;
-}
-
 .container {
   clear: both;
-}
-
-.logo {
-  height: 35px;
-}
-.desplegable {
-  height: 20px;
 }
 .section1 {
   background-color: #1d75de;
@@ -30,6 +11,10 @@ header {
   padding: 40px;
   margin-bottom: 60px;
 }
+.section1 > * {
+  max-width: 900px;
+  margin: auto;
+}
 
 .title {
   font-family: Arial, Helvetica, sans-serif;
@@ -40,14 +25,17 @@ header {
 .button {
   background-color: #4caf50;
   width: 100%;
+  max-width: 400px;
   border: none;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 50px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   border-radius: 30px;
   margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .p-strong {
@@ -63,6 +51,8 @@ header {
 .section2 {
   font-family: Arial, Helvetica, sans-serif;
   padding: 10px;
+  max-width: 900px;
+  margin: auto;
 }
 
 .h2 {
@@ -91,31 +81,4 @@ header {
 .p-article {
   font-size: 14px;
   padding-left: 40px;
-}
-
-.footer {
-  background-color: black;
-  font-size: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  clear: both;
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.footer div {
-  text-align: right;
-}
-
-.España {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.logo-españa {
-  margin-left: 10px;
 }
